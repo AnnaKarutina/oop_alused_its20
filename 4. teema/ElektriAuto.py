@@ -8,3 +8,6 @@ class ElektriAuto(Auto):
 
     def aku_kirjeldus(self):
         print("Antud auto sisaldab " + str(self.aku_suurus) + " patareid")
+
+    def tangi(self, l):
+        print("Antud auto ei vaja kütust sõitmiseks")
