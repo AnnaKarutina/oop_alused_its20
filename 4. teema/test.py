@@ -1,6 +1,8 @@
 from JaatiseKiosk import JaatiseKiosk
 
-jaatise_valik = ["vanilla", "maasika", "banaani"]
-kiosk = JaatiseKiosk("Vanilla", "jäätis", jaatise_valik)
+kiosk = JaatiseKiosk("Vanilla", "jäätis")
 kiosk.restoraani_kirjeldus()
+kiosk.lisaJaatisValikusse("vanilla")
+kiosk.lisaJaatisValikusse("maasika")
+kiosk.lisaJaatisValikusse("banaani")
 kiosk.naita_jaatise_valik()
