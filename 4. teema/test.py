@@ -1,11 +1,12 @@
-from Inimene import Inimene
+from Sodur import Sodur
+
 # loome testimiseks 3 eksemplaari
-inimene1 = Inimene()
-inimene1.info()
+sodur1 = Sodur(1)
+sodur1.info()
 
-inimene2 = Inimene()
-inimene2.info()
+sodur2 = Sodur(1)
+sodur2.info()
 
-inimene3 = Inimene()
-inimene3.info()
+sodur3 = Sodur(2)
+sodur3.info()
 # väljatsame nende id-d
