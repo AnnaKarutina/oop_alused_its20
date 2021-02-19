@@ -8,6 +8,11 @@ ruut = Ruut(2)
 kolmnurk = Kolmnurk(5, 2)
 ring = Ring(5)
 
+print(kuju)
+print(ruut)
+print(kolmnurk)
+print(ring)
+
 print("kuju pindala " + str(kuju.pindala()))
 print("ruut pindala " + str(ruut.pindala()))
 print("kolmnurga pindala " + str(kolmnurk.pindala()))
